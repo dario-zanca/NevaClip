@@ -9,7 +9,7 @@ def main():
     # Configurations
     clip_backbone = 'RN50'
     model_path = "Models/"
-    device = "cuda"
+    device = "cpu" # or "cuda"
     image_size = 224
     foveation_sigma = 0.2
     blur_filter_size = 41
